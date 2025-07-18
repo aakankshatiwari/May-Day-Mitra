@@ -13,7 +13,7 @@ from datetime import datetime
 import os
 
 st.set_page_config(page_title="May Day Rakshak", layout="wide")
-st.title("🛡️ May Day Rakshak – Better healthcare for climate-sensitive disease")
+st.title("🛡️ May Day Rakshak – Better healthcare in climate-sensitive zones")
 
 menu = st.sidebar.selectbox(
     "📋 Navigation",
