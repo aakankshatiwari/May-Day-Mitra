@@ -13,7 +13,7 @@ from datetime import datetime
 import os
 
 st.set_page_config(page_title="May Day Rakshak", layout="wide")
-st.title("🛡️ May Day Rakshak – Hospital Security & Patient Safety")
+st.title("🛡️ May Day Rakshak – Better healthcare for climate-sensitive disease")
 
 menu = st.sidebar.selectbox(
     "📋 Navigation",
@@ -29,7 +29,7 @@ menu = st.sidebar.selectbox(
 if menu == "🏠 Home":
     st.markdown("""
         ### Welcome to **May Day Rakshak (MDR)** 🏥
-        A comprehensive system for ensuring **hospital security, patient safety**, and **faster medical services**.
+        A comprehensive system for ensuring **hospital safety, patient comfort**, and **faster medical services**.
 
         🚪 Secure room/doctor access with face verification
         🕵️ Monitor visitor entry logs via MDR card
