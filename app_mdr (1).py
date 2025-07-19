@@ -127,8 +127,8 @@ def visitor_verification():
 
 
 # ---- Streamlit App Structure ----
-st.set_page_config(page_title="May Day Rakshak - AI Citizen Lab", layout="centered")
-st.title("🛡️ May Day Rakshak")
+st.set_page_config(page_title="May Day Rakshak", layout="centered")
+st.title("🛡️ May Day Rakshak - AI Citizen Lab")
 st.subheader("A Secure Patient Safety & Emergency Response System")
 
 menu = st.sidebar.radio("📋 Select Feature", [
